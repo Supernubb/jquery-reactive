@@ -1,0 +1,23 @@
+div {
+  margin: 10px 0;
+}
+
+.link {
+  margin-top:30px;
+}
+
+[data-color='black'] {
+  color: black;
+}
+
+[data-color='red'] {
+  color: red;
+}
+
+[data-color='blue'] {
+  color: blue;
+}
+
+[data-color='green'] {
+  color: green;
+}

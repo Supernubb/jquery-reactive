@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - jDux example</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <h1 data-tag="titleColor" data-color>jDux is super cool!</h1>
+    <div>
+      <button class="buttonRed">red</button>
+      <button class="buttonBlue">blue</button>
+      <button class="buttonGreen">green</button>
+    </div>
+
+    <div>
+      Count = <span data-tag="num" data-text>#</span>
+      <button type="button" id="inc">+</button>
+      <button type="button" id="dec">-</button>
+    </div>
+
+    <div>
+      <p>First Name: <span data-tag="firstName" data-text></span></p>
+      <input id="firstNameInput" type="text" val="" />
+      <p>Last Name: <span data-tag="lastName" data-text></span></p>
+      <input id="lastNameInput" type="text" val="" />
+    </div>
+
+    <div class="link">
+      <a href="https://codepen.io/meredithmatthews/pen/dyoOMKE" target="_blank"
+        >Redux with jQuery example</a
+      >
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
